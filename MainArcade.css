@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.game-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+
+.game-links button {
+    background-color: black;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: white;
+    cursor: pointer
+}
+
+body {
+    background-image: url(./Img/Arcade\ Pattern2.png);
+}
+
+.name {
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 0.5em;
+}
